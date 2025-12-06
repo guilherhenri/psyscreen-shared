@@ -1,5 +1,11 @@
 # @psyscreen/config
 
+## 0.1.3
+
+### Patch Changes
+
+- add ignored folders for eslint
+
 ## 0.1.2
 
 ### Patch Changes
