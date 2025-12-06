@@ -5,11 +5,7 @@ import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
 export default [
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
-  eslintPluginPrettierRecommended,
   {
-    files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
     ignores: [
       'dist/**',
       'build/**',
@@ -17,6 +13,12 @@ export default [
       'node_modules/**',
       '*.config.js',
     ],
+  },
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  eslintPluginPrettierRecommended,
+  {
+    files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
     plugins: {
       'simple-import-sort': simpleImportSort,
     },

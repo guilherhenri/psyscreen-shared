@@ -1,5 +1,11 @@
 # @psyscreen/config
 
+## 0.1.4
+
+### Patch Changes
+
+- fix ignores folders on eslint
+
 ## 0.1.3
 
 ### Patch Changes
