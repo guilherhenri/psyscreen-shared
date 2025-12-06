@@ -1,0 +1,44 @@
+{
+  "name": "@psyscreen/config",
+  "version": "0.1.0",
+  "description": "Shared configuration for ESLint, Prettier and TypeScript",
+  "private": true,
+  "exports": {
+    "./eslint/node": "./eslint/node.js",
+    "./prettier/node": "./prettier/node.json",
+    "./tsconfig/nest": "./tsconfig/nest.json"
+  },
+  "files": [
+    "eslint",
+    "prettier",
+    "tsconfig"
+  ],
+  "scripts": {
+    "build": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,ts,json,md}\""
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "prettier",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
