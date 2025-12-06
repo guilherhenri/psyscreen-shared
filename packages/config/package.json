@@ -1,6 +1,6 @@
 {
   "name": "@psyscreen/config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared configuration for ESLint, Prettier and TypeScript",
   "exports": {
     "./eslint/node": "./eslint/node.js",
@@ -26,18 +26,22 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.22.0",
-  "devDependencies": {
+  "dependencies": {
     "@eslint/js": "^9.39.1",
-    "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^16.5.0",
-    "prettier": "^3.4.2",
-    "typescript": "^5.9.3",
     "typescript-eslint": "^8.48.1"
   },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.9.3"
+  },
   "peerDependencies": {
+    "eslint": "^9.39.1",
+    "prettier": "^3.4.2",
     "typescript": "^5.0.0"
   }
 }

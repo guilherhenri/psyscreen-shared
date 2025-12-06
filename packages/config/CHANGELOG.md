@@ -1,5 +1,11 @@
 # @psyscreen/config
 
+## 0.1.2
+
+### Patch Changes
+
+- add peerDependencies and move needed packages to dependencies
+
 ## 0.1.1
 
 ### Patch Changes
