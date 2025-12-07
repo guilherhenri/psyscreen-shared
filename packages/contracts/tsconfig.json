@@ -1,0 +1,7 @@
+{
+  "extends": ["@psyscreen/config/tsconfig/base"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "strict": false
+  }
+}
