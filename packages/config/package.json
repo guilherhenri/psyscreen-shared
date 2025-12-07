@@ -14,7 +14,6 @@
     "tsconfig"
   ],
   "scripts": {
-    "build": "tsc --noEmit",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.{js,ts,json,md}\""
   },
