@@ -2,9 +2,10 @@
   "private": true,
   "packageManager": "pnpm@10.22.0",
   "scripts": {
+    "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "changeset publish"
+    "release": "turbo run build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
