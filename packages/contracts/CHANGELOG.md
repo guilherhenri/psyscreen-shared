@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 0.2.2
+
+### Patch Changes
+
+- fix double DomainError type
+
 ## 0.2.1
 
 ### Patch Changes
