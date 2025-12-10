@@ -1,5 +1,11 @@
 # @psyscreen/config
 
+## 0.2.1
+
+### Patch Changes
+
+- remove base url and path config from nest
+
 ## 0.2.0
 
 ### Minor Changes
