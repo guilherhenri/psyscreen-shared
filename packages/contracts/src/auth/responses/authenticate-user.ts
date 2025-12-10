@@ -1,4 +1,10 @@
-export class AuthenticateUserResponse {
-  accessToken: string
-  refreshToken: string
-}
+import type { DomainError, ServiceResponse } from '../../common/responses'
+import type { AuthenticateSessionErrorCode } from '../errors'
+
+export type AuthenticateUserResponse = ServiceResponse<
+  {
+    accessToken: string
+    refreshToken: string
+  },
+  DomainError<AuthenticateSessionErrorCode>
+>

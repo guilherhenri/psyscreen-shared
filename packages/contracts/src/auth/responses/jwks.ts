@@ -1,4 +1,6 @@
-export class JwksResponse {
+import type { ServiceResponse } from '../../common/responses'
+
+export type JwksResponse = ServiceResponse<{
   keys: Array<{
     kty: string
     use: string
@@ -7,4 +9,4 @@ export class JwksResponse {
     n: string
     e: string
   }>
-}
+}>

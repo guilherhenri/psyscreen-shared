@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 0.2.0
+
+### Minor Changes
+
+- change response to functional pattern
+
 ## 0.1.1
 
 ### Patch Changes
