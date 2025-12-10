@@ -1,3 +1,7 @@
 export class RegisterUserResponse {
-  message: string
+  user: {
+    name: string
+    email: string
+    passwordHash: string
+  }
 }
