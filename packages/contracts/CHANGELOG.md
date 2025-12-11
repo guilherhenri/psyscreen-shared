@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 0.2.5
+
+### Patch Changes
+
+- fix global error codes var name
+
 ## 0.2.4
 
 ### Patch Changes

@@ -1,4 +1,4 @@
-export enum GlobalErrorCode {
+export enum GlobalErrorCodes {
   UNEXPECTED_ERROR = 'UNEXPECTED_ERROR',
   RESOURCE_NOT_FOUND = 'RESOURCE_NOT_FOUND',
 }
