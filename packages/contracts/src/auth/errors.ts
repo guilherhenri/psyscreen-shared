@@ -1,4 +1,4 @@
-import type { GlobalErrorCode } from '../common/errors'
+import type { GlobalErrorCodes } from '../common/errors'
 
 export enum EnrollIdentityCodes {
   EMAIL_ALREADY_IN_USE = 'EMAIL_ALREADY_IN_USE',
@@ -6,7 +6,7 @@ export enum EnrollIdentityCodes {
 
 export type EnrollIdentityErrorCode =
   | EnrollIdentityCodes
-  | GlobalErrorCode.UNEXPECTED_ERROR
+  | GlobalErrorCodes.UNEXPECTED_ERROR
 
 export enum AuthenticateSessionCodes {
   INVALID_CREDENTIALS = 'INVALID_CREDENTIALS',
@@ -14,7 +14,7 @@ export enum AuthenticateSessionCodes {
 
 export type AuthenticateSessionErrorCode =
   | AuthenticateSessionCodes
-  | GlobalErrorCode.UNEXPECTED_ERROR
+  | GlobalErrorCodes.UNEXPECTED_ERROR
 
 enum RenewTokenCodes {
   INVALID_CREDENTIALS = 'INVALID_CREDENTIALS',
@@ -22,5 +22,5 @@ enum RenewTokenCodes {
 
 export type RenewTokenErrorCode =
   | RenewTokenCodes
-  | GlobalErrorCode.RESOURCE_NOT_FOUND
-  | GlobalErrorCode.UNEXPECTED_ERROR
+  | GlobalErrorCodes.RESOURCE_NOT_FOUND
+  | GlobalErrorCodes.UNEXPECTED_ERROR
