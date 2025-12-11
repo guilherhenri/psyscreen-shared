@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 0.3.0
+
+### Minor Changes
+
+- add auth topics
+
 ## 0.2.5
 
 ### Patch Changes
