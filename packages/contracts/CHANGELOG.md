@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 0.2.3
+
+### Patch Changes
+
+- add global errors code
+
 ## 0.2.2
 
 ### Patch Changes
