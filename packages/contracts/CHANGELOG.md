@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 0.3.3
+
+### Patch Changes
+
+- fix jwks reponse keys type
+
 ## 0.3.2
 
 ### Patch Changes
