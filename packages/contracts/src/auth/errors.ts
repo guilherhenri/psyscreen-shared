@@ -16,11 +16,6 @@ export type AuthenticateSessionErrorCode =
   | AuthenticateSessionCodes
   | GlobalErrorCodes.UNEXPECTED_ERROR
 
-enum RenewTokenCodes {
-  INVALID_CREDENTIALS = 'INVALID_CREDENTIALS',
-}
-
 export type RenewTokenErrorCode =
-  | RenewTokenCodes
   | GlobalErrorCodes.RESOURCE_NOT_FOUND
   | GlobalErrorCodes.UNEXPECTED_ERROR
