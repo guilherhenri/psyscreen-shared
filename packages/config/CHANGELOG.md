@@ -1,5 +1,11 @@
 # @psyscreen/config
 
+## 0.2.2
+
+### Patch Changes
+
+- remove outDir and add noEmit to nest config
+
 ## 0.2.1
 
 ### Patch Changes
