@@ -1,5 +1,11 @@
 # @psyscreen/config
 
+## 0.2.3
+
+### Patch Changes
+
+- change declaration to false
+
 ## 0.2.2
 
 ### Patch Changes
