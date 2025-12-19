@@ -1,7 +1,7 @@
-import type { ServiceResponse } from '../../common/responses'
+import type { ServiceResult } from '../../common/results'
 import type { RenewTokenErrorCode } from '../errors'
 
-export type RefreshTokenResponse = ServiceResponse<
+export type RefreshTokenResult = ServiceResult<
   {
     accessToken: string
     refreshToken: string

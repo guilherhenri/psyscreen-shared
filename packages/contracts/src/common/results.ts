@@ -4,14 +4,14 @@ export type DomainError<L> = {
   details?: Record<string, unknown>
 }
 
-export type SuccessResponse<R> = {
+export type SuccessResult<R> = {
   success: true
   data: R
 }
 
-export type ErrorResponse<L> = {
+export type ErrorResult<L> = {
   success: false
   error: DomainError<L>
 }
 
-export type ServiceResponse<R, L = null> = SuccessResponse<R> | ErrorResponse<L>
+export type ServiceResult<R, L = null> = SuccessResult<R> | ErrorResult<L>

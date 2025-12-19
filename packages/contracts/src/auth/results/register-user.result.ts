@@ -1,7 +1,7 @@
-import type { ServiceResponse } from '../../common/responses'
+import type { ServiceResult } from '../../common/results'
 import type { EnrollIdentityErrorCode } from '../errors'
 
-export type RegisterUserResponse = ServiceResponse<
+export type RegisterUserResult = ServiceResult<
   { user: { id: string; name: string; email: string; passwordHash: string } },
   EnrollIdentityErrorCode
 >

@@ -1,6 +1,6 @@
-import type { ServiceResponse } from '../../common/responses'
+import type { ServiceResult } from '../../common/results'
 
-export type JwksResponse = ServiceResponse<{
+export type JwksResult = ServiceResult<{
   keys: Array<{
     kty?: string
     use?: string

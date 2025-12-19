@@ -1,5 +1,26 @@
 # @psyscreen/contracts
 
+## 1.0.0
+
+### Major Changes
+
+- Restructure contract types to separate gateway and microservice boundaries
+
+  BREAKING CHANGE: Contract types have been reorganized to provide clear separation between gateway (HTTP) layer and microservice layer contracts. All existing imports will need to be updated.
+
+  **Migration Guide:**
+  - `RegisterUserCommand` (when used as HTTP body) → `RegisterUserDto`
+  - Microservice responses remain as `*Result` types
+  - New `*ResponseDto` types introduced for gateway HTTP responses
+  - Path parameters now use `*ParamsDto` naming
+  - Query parameters now use `*QueryDto` naming
+
+  **New Structure:**
+  - DTOs: Gateway request/response contracts (HTTP layer)
+  - Commands: Microservice command payloads (message broker/RPC)
+  - Results: Microservice response types
+  - Events: Event payloads (event-driven communication)
+
 ## 0.3.3
 
 ### Patch Changes

@@ -1,7 +1,7 @@
-import type { ServiceResponse } from '../../common/responses'
+import type { ServiceResult } from '../../common/results'
 import type { AuthenticateSessionErrorCode } from '../errors'
 
-export type AuthenticateUserResponse = ServiceResponse<
+export type AuthenticateUserResult = ServiceResult<
   {
     accessToken: string
     refreshToken: string
