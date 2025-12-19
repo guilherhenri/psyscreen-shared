@@ -18,6 +18,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.22.0",
   "devDependencies": {
+    "@nestjs/swagger": "^11.2.3",
     "@psyscreen/config": "workspace:*",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.3",
@@ -27,6 +28,7 @@
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
+    "@nestjs/swagger": "^11.2.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.3",
     "typescript": "^5.9.3"
