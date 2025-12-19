@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.0.1
+
+### Patch Changes
+
+- change config to emit metadata
+
 ## 1.0.0
 
 ### Major Changes

@@ -2,6 +2,7 @@
   "extends": ["@psyscreen/config/tsconfig/base"],
   "compilerOptions": {
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "strict": false
   }
 }
