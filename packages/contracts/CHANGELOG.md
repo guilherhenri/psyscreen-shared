@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.0
+
+### Minor Changes
+
+- 9ea2b0a: add resume service contracts
+
 ## 1.0.1
 
 ### Patch Changes
