@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.1
+
+### Patch Changes
+
+- Add resume text extracted topic to contracts.
+
 ## 1.1.0
 
 ### Minor Changes
