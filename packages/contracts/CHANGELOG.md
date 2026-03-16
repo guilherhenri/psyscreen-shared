@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.2
+
+### Patch Changes
+
+- Add resume text extracted event contract.
+
 ## 1.1.1
 
 ### Patch Changes
