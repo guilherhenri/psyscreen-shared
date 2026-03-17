@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.3
+
+### Patch Changes
+
+- Add gateway DTOs for resumes endpoints.
+
 ## 1.1.2
 
 ### Patch Changes

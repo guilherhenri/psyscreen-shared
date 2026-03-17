@@ -1,3 +1,7 @@
+export * from './dtos/confirm-resume-upload.dto'
+export * from './dtos/generate-resume-signed-url.dto'
 export * from './dtos/login-user.dto'
 export * from './dtos/register-user.dto'
+export * from './responses/confirm-resume-upload-response.dto'
+export * from './responses/generate-resume-signed-url-response.dto'
 export * from './responses/register-user-response.dto'
