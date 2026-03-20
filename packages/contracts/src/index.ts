@@ -1,4 +1,5 @@
 export * from './auth'
+export * from './candidates'
 export * from './common'
 export * from './gateway'
 export * from './resumes'

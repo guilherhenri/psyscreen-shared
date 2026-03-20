@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.4
+
+### Patch Changes
+
+- Add candidate profile created event contract.
+
 ## 1.1.3
 
 ### Patch Changes
