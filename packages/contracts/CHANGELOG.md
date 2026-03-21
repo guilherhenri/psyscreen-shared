@@ -12,6 +12,12 @@
 
 - Add psych analysis completed event contract.
 
+## 1.1.6
+
+### Patch Changes
+
+- Add vacancy events and topics contract.
+
 ## 1.1.3
 
 ### Patch Changes
