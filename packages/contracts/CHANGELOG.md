@@ -6,6 +6,12 @@
 
 - Add candidate profile created event contract.
 
+## 1.1.5
+
+### Patch Changes
+
+- Add psych analysis completed event contract.
+
 ## 1.1.3
 
 ### Patch Changes
