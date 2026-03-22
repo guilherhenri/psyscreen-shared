@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.9
+
+### Patch Changes
+
+- Add vacancy status types to commands.
+
 ## 1.1.8
 
 ### Patch Changes

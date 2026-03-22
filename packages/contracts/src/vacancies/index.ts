@@ -1,4 +1,5 @@
 export * from './criteria'
+export * from './types'
 export * from './commands/create-vacancy.command'
 export * from './commands/update-vacancy.command'
 export * from './commands/update-vacancy-criteria.command'
