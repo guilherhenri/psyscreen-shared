@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.7
+
+### Patch Changes
+
+- Add vacancy command contracts and topics.
+
 ## 1.1.4
 
 ### Patch Changes
