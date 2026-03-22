@@ -1,5 +1,9 @@
 import { ApiProperty } from '@nestjs/swagger'
-import { IsString } from 'class-validator'
+import { IsIn, IsString } from 'class-validator'
+
+import type { VacancyStatus } from '../../vacancies/types'
+
+const VACANCY_STATUSES: VacancyStatus[] = ['draft', 'open', 'closed']
 
 export class UpdateVacancyDto {
   @ApiProperty({
@@ -19,7 +23,9 @@ export class UpdateVacancyDto {
   @ApiProperty({
     description: 'Vacancy status',
     example: 'open',
+    enum: VACANCY_STATUSES,
   })
   @IsString()
-  status: string
+  @IsIn(VACANCY_STATUSES)
+  status: VacancyStatus
 }

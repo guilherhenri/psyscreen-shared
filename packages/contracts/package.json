@@ -1,6 +1,6 @@
 {
   "name": "@psyscreen/contracts",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "Shared contracts and types",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

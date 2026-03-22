@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.11
+
+### Patch Changes
+
+- Tighten vacancy DTOs with explicit status unions and validation.
+
 ## 1.1.10
 
 ### Patch Changes

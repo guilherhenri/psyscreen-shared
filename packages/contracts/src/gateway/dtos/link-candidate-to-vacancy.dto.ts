@@ -1,5 +1,13 @@
 import { ApiProperty } from '@nestjs/swagger'
-import { IsString } from 'class-validator'
+import { IsIn, IsString } from 'class-validator'
+
+import type { CandidateVacancyStatus } from '../../vacancies/types'
+
+const CANDIDATE_VACANCY_STATUSES: CandidateVacancyStatus[] = [
+  'linked',
+  'active',
+  'archived',
+]
 
 export class LinkCandidateToVacancyDto {
   @ApiProperty({
@@ -12,7 +20,9 @@ export class LinkCandidateToVacancyDto {
   @ApiProperty({
     description: 'Link status',
     example: 'linked',
+    enum: CANDIDATE_VACANCY_STATUSES,
   })
   @IsString()
-  status: string
+  @IsIn(CANDIDATE_VACANCY_STATUSES)
+  status: CandidateVacancyStatus
 }
