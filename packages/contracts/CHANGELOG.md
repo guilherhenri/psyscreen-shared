@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.1.10
+
+### Patch Changes
+
+- Add vacancy gateway contracts and optional vacancy links.
+
 ## 1.1.9
 
 ### Patch Changes
