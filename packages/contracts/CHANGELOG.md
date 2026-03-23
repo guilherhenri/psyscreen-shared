@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.4.0
+
+### Minor Changes
+
+- add gateway response contracts for auth endpoints
+
 ## 1.3.0
 
 ### Minor Changes
