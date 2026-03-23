@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.2.1
+
+### Patch Changes
+
+- add dashboard event topics
+
 ## 1.2.0
 
 ### Minor Changes
