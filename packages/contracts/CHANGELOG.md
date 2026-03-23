@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.5.0
+
+### Minor Changes
+
+- add gateway endpoint path constants for frontend consumption
+
 ## 1.4.0
 
 ### Minor Changes
