@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.3.0
+
+### Minor Changes
+
+- add dashboard gateway response dto for candidate detail and export dashboard dtos/responses
+
 ## 1.2.1
 
 ### Patch Changes
