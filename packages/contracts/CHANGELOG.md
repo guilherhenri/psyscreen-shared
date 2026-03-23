@@ -1,5 +1,11 @@
 # @psyscreen/contracts
 
+## 1.2.0
+
+### Minor Changes
+
+- add dashboard command topics, commands, and results
+
 ## 1.1.11
 
 ### Patch Changes

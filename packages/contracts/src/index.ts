@@ -1,6 +1,7 @@
 export * from './auth'
 export * from './candidates'
 export * from './common'
+export * from './dashboard'
 export * from './gateway'
 export * from './psych-analysis'
 export * from './resumes'
